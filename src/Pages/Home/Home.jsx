@@ -17,10 +17,9 @@ const Home = () => {
         <div className="hero-caption">
           <img src={hero_title} alt="" className="caption-img" />
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic sint
-            placeat minus. Quos distinctio libero laborum voluptates aperiam
-            adipisci ab quisquam explicabo dolor molestias quibusdam quae,
-            provident nisi in consequatur.
+            As her curiosity grows, Livia decides to investigate, only to
+            uncover that the shadows conceal dark secrets about the house’s
+            previous occupants.
           </p>
           <div className="hero-btns">
             <button className="btn">
