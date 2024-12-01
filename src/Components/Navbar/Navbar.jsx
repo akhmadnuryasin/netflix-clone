@@ -1,10 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import "./Navbar.css";
-import logo from "../../Assets/logo.png";
-import search_icon from "../../Assets/search_icon.svg";
-import bell_icon from "../../Assets/bell_icon.svg";
-import profile_img from "../../Assets/profile_img.png";
-import caret_icon from "../../Assets/caret_icon.svg";
 import { logout } from "../../firebase";
 
 const Navbar = () => {
@@ -22,7 +17,7 @@ const Navbar = () => {
   return (
     <div ref={navRef} className="navbar">
       <div className="navbar-left">
-        <img src={logo} alt="" />
+        <img src="/logo.png" alt="" />
         <ul>
           <li>Home</li>
           <li>TV Shows</li>
@@ -33,12 +28,12 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-right">
-        <img src={search_icon} alt="" className="icons" />
+        <img src="/search_icon.svg" alt="search_icon" className="icons" />
         <p>Children</p>
-        <img src={bell_icon} alt="" className="icons" />
+        <img src="/bell_icon.svg" alt="bell_icon" className="icons" />
         <div className="navbar-profile">
-          <img src={profile_img} alt="" className="profile" />
-          <img src={caret_icon} alt="" />
+          <img src="/profile_img.png" alt="profile_icon" className="profile" />
+          <img src="/caret_icon.svg" alt="caret_icon" />
           <div className="dropdown">
             <p
               onClick={() => {

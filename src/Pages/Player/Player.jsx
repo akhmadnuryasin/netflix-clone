@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./Player.css";
-import back_arrow_icon from "../../Assets/back_arrow_icon.png";
 import { useNavigate, useParams } from "react-router-dom";
 
 const Player = () => {
@@ -38,7 +37,7 @@ const Player = () => {
     <div className="player">
       <img
         onClick={() => navigate(-1)}
-        src={back_arrow_icon}
+        src="/back_arrow_icon.png"
         alt="Back Arrow"
       />
       <iframe
