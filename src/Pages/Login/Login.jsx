@@ -28,7 +28,7 @@ const Login = () => {
     </div>
   ) : (
     <div className="login">
-      <img className="login-logo" src={logo} alt="" />
+      <img className="login-logo" src={logo} alt="login_logo" />
       <div className="login-form">
         <h1>{SignState}</h1>
         <form>

@@ -46,7 +46,7 @@ const TitleCards = ({ title, category }) => {
           <Link to={`/player/${card.id}`} className="card" key={index}>
             <img
               src={`https://image.tmdb.org/t/p/original/` + card.backdrop_path}
-              alt=""
+              alt="image"
             />
             <p>{card.original_title}</p>
           </Link>
